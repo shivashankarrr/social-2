@@ -37,7 +37,7 @@ function Signin() {
                     photoURL: user.photoURL,
                     email:user.email
                 })
-               navigate('/')
+               navigate('/home')
             }
         })
     }
