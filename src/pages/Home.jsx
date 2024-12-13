@@ -27,7 +27,7 @@ function Home() {
             await auth.signOut()
             setUserDetails(null)
             console.log("user Logout successful!")
-            window.location.href='/signin'
+            window.location.href='/'
         } catch (error) {
             console.log("error in logging out:", error)
         }
